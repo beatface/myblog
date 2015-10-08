@@ -12,7 +12,7 @@ body {
 /********************LARGE BACKGROUND IMAGE STYLING*******************/
 
 .index-page-image {
-  background-image: url("http://www.peninsuladailynews.com/apps/pbcsi.dll/bilde?Site=PT&Date=20150623&Category=news&ArtNo=306239993&Ref=AR");
+  background-image: url("indexEmma.JPG");
 }
 
 .music-page-image {
@@ -36,7 +36,7 @@ body {
 
 .index-page-image p, .music-page-image p, .other-page-image p {
   color: #fcc900;
-  text-shadow: 1px 1px 1px #b5b5b5;
+  text-shadow: 1px 1px 1px #7F7F7F;
   font-size: 3em;
   text-align: left;
   line-height: .92em;
