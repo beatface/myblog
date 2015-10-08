@@ -175,7 +175,6 @@ th, tr {
 
 @media screen and (max-width: 720px) {
   article, aside, footer {
-    margin: 0 auto 0;
     max-width: 85%;
   }
 }
