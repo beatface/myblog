@@ -11,10 +11,21 @@ body {
 
 /********************LARGE BACKGROUND IMAGE STYLING*******************/
 
-.large-image {
+.index-page-image {
+  background-image: url("http://www.peninsuladailynews.com/apps/pbcsi.dll/bilde?Site=PT&Date=20150623&Category=news&ArtNo=306239993&Ref=AR");
+}
+
+.music-page-image {
+  background-image: url("https://img.washingtonpost.com/rf/image_1484w/2010-2019/WashingtonPost/2013/08/30/Weekend/Images/wk-joy0906-1.jpg?uuid=O2N-khEKEeO99uT8Z32UoQ");
+}
+
+.other-page-image {
+  background-image: url("https://www.tradlife.com/wp-content/uploads/2014/06/emmabeaton1.jpg");
+}
+
+.index-page-image, .music-page-image, .other-page-image {
   clear: both;
   background-color: #fcc900;
-  background-image: url("http://www.peninsuladailynews.com/apps/pbcsi.dll/bilde?Site=PT&Date=20150623&Category=news&ArtNo=306239993&Ref=AR");
   width: 100%;
   height: 40em;
   background-size: cover;
@@ -23,7 +34,7 @@ body {
   font-family: 'Pacifico', sans-serif;
 }
 
-.large-image p {
+.index-page-image p, .music-page-image p, .other-page-image p {
   color: #fcc900;
   text-shadow: 1px 1px 1px #b5b5b5;
   font-size: 3em;
@@ -32,7 +43,7 @@ body {
   padding: 460px 0 0 2%;
 }
 
-.large-image span {
+.index-page-image span, .music-page-image span, .other-page-image span {
   font-size: .7em;
 }
 
