@@ -4,9 +4,13 @@ html {
 }
 
 body {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   letter-spacing: .04em;
   margin: 0;
+  background-color: #C5C5C5;
+  background-image: url("http://www.webdesignburn.com/wp-content/uploads/2015/04/Grey-Texture-Background-and-Wallpaper-16.jpg");
+  background-position: bottom center;
+  background-size: cover;
 }
 
 /********************LARGE BACKGROUND IMAGE STYLING*******************/
@@ -109,7 +113,7 @@ li a, h1 a {
 #page-break img {
   display: inline-block;
   margin: 0 auto;
-  padding: 8px 0 8px;
+  padding: 10px 0 8px;
 }
 
 /******************CONTENT STYLING****************/
@@ -120,7 +124,8 @@ article, aside, footer {
 }
 
 h2 {
-  text-shadow: 1px 1px 2px #6E6E6E;
+  font-size: "Ubuntu", sans-serif;
+  text-align: center;
 }
 
 .hobbies {
@@ -129,6 +134,7 @@ h2 {
 }
 
 aside {
+  margin-top: 1em;
   margin-bottom: 2em;
 }
 
@@ -136,19 +142,16 @@ label {
   padding-right: 4px;
 }
 
-#emmaPic, #jksPic {
-  max-width: 65%;
-  min-width: 300px;
-}
-
-#jksPic {
-  max-width: 900px;
+article, aside {
+  background-color: white;
+  padding: 1em;
 }
 
 /* footer styling */
 .small {
   font-size: .75em;
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
+  text-align: right;
 }
 
 /******************TABLE STYLING****************/
