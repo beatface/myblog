@@ -1,0 +1,167 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  letter-spacing: .04em;
+  margin: 0;
+}
+
+/********************LARGE BACKGROUND IMAGE STYLING*******************/
+
+.large-image {
+  clear: both;
+  background-color: #fcc900;
+  background-image: url("http://www.peninsuladailynews.com/apps/pbcsi.dll/bilde?Site=PT&Date=20150623&Category=news&ArtNo=306239993&Ref=AR");
+  width: 100%;
+  height: 40em;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  font-family: 'Pacifico', sans-serif;
+}
+
+.large-image p {
+  color: #fcc900;
+  text-shadow: 1px 1px 1px #b5b5b5;
+  font-size: 3em;
+  text-align: left;
+  line-height: .92em;
+  padding: 460px 0 0 2%;
+}
+
+.large-image span {
+  font-size: .7em;
+}
+
+/********** NAVIGATION STYLING **************/
+
+#header h1 a {
+  color: #fff;
+}
+
+#header {
+  position: fixed;
+  background: #000;
+  width: 100%;
+}
+
+h1 {
+  float: left;
+  padding: 8px 0 11px 15px;
+  font-family: 'Pacifico', sans-serif;
+  font-size: 2.3em;
+  margin: 0;
+}
+
+#nav {
+  float: right;
+  list-style: none;
+  text-align: center;
+  padding: 34px 5px;
+  margin: auto 0;
+}
+
+#nav li {
+  font-family: 'Ubuntu', sans-serif;
+  letter-spacing: .125em;
+  padding: 0 1em;
+  width: 45px;
+  text-align: left;
+  display: inline;
+}
+
+#nav li a {
+  padding: 2.29em 0;
+}
+
+#nav li a:hover {
+  color: #fcc900;
+}
+
+li a, h1 a {
+  text-decoration: none;
+  color: #fff;
+  text-align: left;
+}
+
+/*****************PAGE BREAK STYLING****************/
+
+#page-break {
+  text-align: center;
+  background: #6E6E6E;
+
+}
+
+#page-break img {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 8px 0 8px;
+}
+
+/******************CONTENT STYLING****************/
+
+article, aside, footer {
+  margin: 0 auto 0;
+  max-width: 70%;
+}
+
+h2 {
+  text-shadow: 1px 1px 2px #6E6E6E;
+}
+
+.hobbies {
+  color: darkgrey;
+  font-style: italic;
+}
+
+aside {
+  margin-bottom: 2em;
+}
+
+label {
+  padding-right: 4px;
+}
+
+#emmaPic, #jksPic {
+  max-width: 65%;
+  min-width: 300px;
+}
+
+#jksPic {
+  max-width: 900px;
+}
+
+/* footer styling */
+.small {
+  font-size: .75em;
+  margin-bottom: 1em;
+}
+
+/******************TABLE STYLING****************/
+
+table {
+  max-width: 60%;
+  margin: 1em 0 2em;
+}
+
+th {
+  width: 25%;
+  background: #FFCE85;
+}
+
+th, tr {
+  margin: 0;
+  padding: 0;
+}
+
+/******************MEDIA QUERIES****************/
+
+@media screen and (max-width: 720px) {
+  article, aside, footer {
+    margin: 0 auto 0;
+    max-width: 85%;
+  }
+}
